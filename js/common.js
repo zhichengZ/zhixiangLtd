@@ -13,6 +13,8 @@ new UISearch(document.getElementById('sb-search'));
 var mySwiper = new Swiper('.swiper .swiper-container', {
 	pagination: '.pagination',
 	loop: true,
+	autoplay: 3000,
+	speed:1000,
 	grabCursor: true,
 	paginationClickable: true,
 	autoplayDisableOnInteraction:false,
